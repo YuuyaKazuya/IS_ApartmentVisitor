@@ -19,7 +19,7 @@ const options = {
 };
 
 const swaggerSpec = swaggerJsdoc(options);
-app.use('/sufi.Kimi-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.use('/kimi.sufi-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // MongoDB connection URL
 const uri =
